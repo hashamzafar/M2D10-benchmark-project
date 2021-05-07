@@ -1,0 +1,77 @@
+.sign-in{
+    color: #9f54a9;
+}
+body{
+    background-color: #cfcfd5;
+}
+.navbar{
+    border-top:#9f54a9 solid 3px;
+    background-color: rgba(4, 4, 4, 0.817)
+}
+.highlights{
+    margin-top: 80px;
+}
+
+.cart{
+    color: white;
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        padding-left: 20px;
+}
+.cart::before{
+    content: "0";
+}
+.search{
+    color: white;
+ 
+    
+}
+
+
+
+.card{
+    font-size: smaller;
+}
+.strong{
+    /* padding-left: 100px; */
+    background-color: #9f54a9;
+    background-size: 5px, 5px, 5px, 5px,;
+    justify-content:flex-end;
+    padding: 10px;
+   
+}
+.window-icon{
+    padding-right: 60px;
+}
+#gogGalaxy{
+    color: #9f54a9;
+   border-left: 2px solid gray;
+   padding: 10px;
+       
+  
+}
+#gogGalaxy::before{
+     
+    height: 200px;
+    position:absolute;
+    left: 50%;
+}
+.span{
+    color: gray;
+    font-weight: 500;
+}
+.span:hover{
+    color: #9f54a9;
+    text-decoration: underline;
+}
+.shotimg{
+    padding-left: 80px;
+    
+}
+.asideimgs{
+    padding-left: 280px;
+}
