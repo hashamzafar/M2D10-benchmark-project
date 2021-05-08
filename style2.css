@@ -1,0 +1,134 @@
+
+body{
+    background-color: #cfcfd5;
+}
+
+
+
+.sign-in a{
+    color: #9f54a9;
+}
+
+.navbar1{
+    border-top:#9f54a9 solid 3px;
+    background-color: rgba(4, 4, 4, 0.817);
+    color: white;
+    font-size: small;
+    align-content: center;
+}
+
+.navbar1 a{
+    color: white;
+}
+.navbar1 a:hover{
+    color: #9f54a9;
+    font-size: medium;
+}
+
+.nav2:hover{
+    text-decoration: underline;
+    
+    font-size:medium ;
+    color: #9f54a9;
+}
+.nav2{
+    color: black;
+    font-size: small;
+    
+}
+
+.cart{
+    color: white;
+    -moz-transform: scaleX(-1);
+        -o-transform: scaleX(-1);
+        -webkit-transform: scaleX(-1);
+        transform: scaleX(-1);
+        filter: FlipH;
+        -ms-filter: "FlipH";
+        padding-left: 20px;
+}
+.cart::before{
+    content: "0";
+}
+.search{
+    margin-right: 10px;
+}
+.bg-icon{
+    background-color: #9f54a9;
+    padding: 10px;
+    font-size: larger;
+    margin-left: 35px;
+}
+.bg-icon2{
+    background-color: #9f54a9;
+    padding: 10px;
+    font-size: larger;
+    margin-left: 180px;
+
+}
+.price-icon{
+    padding: 10px;
+    font-size: larger;
+
+}
+#gogGalaxy{
+    color: #9f54a9;
+   border-left: 2px solid gray;
+   padding: 10px;
+       
+  
+}
+#gogGalaxy::before{
+     
+    height: 200px;
+    position:absolute;
+    left: 50%;
+}
+
+
+
+
+.highlights{
+    margin-top: 80px;
+}
+
+
+.shotimg{
+    padding-left: 80px;
+    
+}
+
+.footerMid >div span{
+    color: gray;
+    padding: 10px;
+    font-size: small;
+}
+.footerMid > span{
+    color: gray;
+    padding: 10px;
+    font-size: small;
+}
+
+.footerMid > .active{
+    color: #9f54a9;
+    
+}
+footer a{
+    color:gray;
+    text-decoration: none;
+    margin:10px;
+    font-size: small;
+}
+.footerCopyRight{
+    color:gray;
+    font-weight:lighter;
+    font-size: small;
+}
+.footerIcon{
+    color: gray;
+}
+footer a:hover{
+    color: #9f54a9;
+}
+
+

@@ -115,6 +115,8 @@
               <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
               <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+              <li data-target="#carouselExampleIndicators" data-slide-to="4"></li>
             </ol>
             <div class="carousel-inner container-fluid postion-absolute">
               <div class="carousel-item active cell">
@@ -146,7 +148,7 @@
           </div>
         <div class="container mt-5">
             <div class="row">
-            <div class="card col-3" style="width: 18rem;">
+            <div class="card col-3 console.log('sm-1 :>> ', sm-1);" style="width: 28rem;">
                 <img class="card-img-top" src="https://images-2.gog-statics.com/f8bb2b529c58e1fa3fc9fc02d1d3032caa1b0ead9c8e2c5ed9c13cc9afe448c9_product_tile_256.webp" alt="Card image cap">
                 <div class="card-body">
                   <p class="card-text">The Medium Deluxe Edition</p>
@@ -326,9 +328,68 @@
                 
             </div>
             </div>
+            
       </div>
       <div class="carousel-item">
-        <img src="..." class="d-block w-100" alt="...">
+        <div class='container'>
+            <div class="row" >
+             <main class="col-9">
+                 <div >
+                     <div class="row poster">
+                <div class="col-4">
+                    <img src="c1.jpeg" alt="" width="250" height="500" >
+                </div>
+                <div class="col-4">
+                    <img src="c2.jpg" alt=""width="250" height="500" >
+                </div>
+                <div class="col-4">
+                    <img src="c3.jpg" alt=""width="250" height="500" >
+                </div>
+            </div>
+                </div>
+            </main>
+            <div></div>
+            <aside class="col-3">
+                <div class="row" >
+                <div class="card col-12 py-5" style="width: 18rem; height: 260px;">
+                    <img class="card-img-top" src="https://images-2.gog-statics.com/a097900bad23d791770b69decf3b47931101fc439e62afd6ea7be9fc4e039c5f_product_tile_256.webp" alt="Card image cap">
+                    <div class="card-body">
+                      <p class="card-text">Sniper Ghost Warrior Contracts</p>
+                      <span  class="window-icon">
+                        <img width="15px" height="15px"  src="data:image/png;base64,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" alt="hgkfghgfkh">
+                        </span>                
+                          <strong class="strong ">-25%</strong>
+                      
+                      <span class="product">41.29$</span>
+        
+                      <a href="#" class="btn btn-success bt-lg p-1">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                            <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                            <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                          </svg>                </a>
+                    </div>
+                    <div class="card col-12 py-5" style="width: 18rem;height: 260px;">
+                        <img class="card-img-top" src="https://images-2.gog-statics.com/a097900bad23d791770b69decf3b47931101fc439e62afd6ea7be9fc4e039c5f_product_tile_256.webp" alt="Card image cap">
+                        <div class="card-body">
+                          <p class="card-text">Sniper Ghost Warrior Contracts</p>
+                          <span  class="window-icon">
+                            <img width="15px" height="15px"  src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAflBMVEX///8AAAD19fX7+/vBwcHw8PD4+Pje3t7r6+tdXV329vbh4eHk5OTQ0NA7OztVVVWFhYWbm5u1tbWOjo4iIiIqKiqVlZV0dHQvLy/KysqsrKx/f39NTU20tLTY2NhjY2Ojo6MTExNFRUVxcXE3NzcbGxsMDAxqampHR0cXFxeTwLjEAAAKW0lEQVR4nO1d2WKiQBBcucTggSAgoAKeyf//4CYm2aWVowemGB+oR9fs0DBOdVcf/PkzYsSIESNGjBgxYsSIEa8F28jd22oZbIo7NsHyuLql68SwVV9Zf+i24a8mDTglc131RXaH40XLJut+sPQXqq+0CyzDPTOs+0HgO6ovWAx20rgzq5/k3lJ92VxM1+/C5n3Dn6u+dgam4bGjeXdEU9UGNEPLe5n3beMLE8gi6m3eHaGm2pJqLPo/vl9sEtXGVELSA/zG7qDanGdoW5kWTibpy23VhVwDJ5OLodqkB4SyLfx8jK/lAYj7MO1YqTaqDOcKsHCn2qoy9gADJ2vVVpVxQ1j4SpShBQADg1ciDOlc8YWbaqvK8BEW7lVbVUbXgLARrxQszhEGHskSB7WBY4KwMCRLbCeuqci6L0C4guhv088Ptuo8VRPBFROyRH7/KFL1GA2EgZQrZj+f5mq8cTxX2Jffj99lbVXT48vQOoQriCBV3iUzCQK5ZpwCAb6dIgykcUVK/i3rZ6MWR/ctwf9R5wgLCVdoj/mBWdzVPDOOfs7FY/uXfzF7ujwJII/p8PzvK6/DmWN70f9j32f/mYYIfmlcUSmRLNdi2vE8z4ry3/O3OoQrTmSJXc23Zh7Pd9UdL31M8234sVlauXhPeOUV7IYv7vy48VHq5sFLq8TqjG2gxcmBCoNctdf83WDl5rH99nhhb+bcyNNdnb/F19UrToH+WJIlTpw/2e6yyA2TfZJ/Ikyz3fmj8fv82AzCFUSD0jaAFbZsAzFcQTSoGLGCyzbQRtzgK1kCIKdPJnyXAcIVKVmijit6gW0ghitI/OAgVuDreJZARQkfxCeGyOmKuYJmZFhcIQo+V0BOATxXvLMNhCTVKFdA5HR+XNHkMXbGllTyQSQSflzR4jF2Q0SWQLi9AnGF1AKMXxCugMjp/LjiDcIVJHiHyOl8DQpyClANCiKn87lijVg+L69gKo4rIFxBbjAkruBzxbwALE9vsGKugMQVJHCDyOlXvg4J8RhJ4AaR00919jzBQiTVLiSuUMwVkLiCknGGWEJxXEECNw2xgkAtGURdIDcYcpSFdfY8ARJXnMkSLmIJPldA1AVKxpLrju+48LusIHFFW1KtP/hcIbuw+xtkCYic7tXY8wxIXEFvMERO5+e2IXEFTapd2v9AGAK5bQhXkBusmCsg6gIVSiFyOr/uGKJBEaEUknrdPiVSawGJK0iFJSSuiOrseYJVAJanDg2EK/g1YxCuoEk1BFcU/AIVSFxBbrCOWEGgC6dVXSg2wXn5hXNwKZjrE3UBwhU528B6rgh2Ue4Zh7lmWfo3rDdzGnvrU+vRSG8wJK7gc0V1XLE8JYt6p0ifelGjL0uzlgi3N2AbWBFXbKL9vF3Dejv49VdOTgFIXJHWXdcTHuKKYpZP+VHXIq3WsV+WKy43T7S/3E6qCs1o8AuJK/hJtf9ckQmbd4duPCcESPBrFwAD+Um137hilfToDlg8PKUN8RgVc8Vdg1qGfft0qI00+IXEFfzxKfvPkzOW0fhglH6PJPjVEVxx5J+Ge09W74r+X7YnQimkDopfrCcV2g+1UiUawhWd6/v7YnE/t3LyGSL1KlCAIR3J5eEUsAAGym661TR7bmvc00hb07JnCFfIGJhi2UbuZ0sqAgbvUejNxXYIhCt6TvbRHcOdNWRMP1Zuc9cAAaJMR0AofYaTZBz+ur6veZwL0aD4BRgP0GNfRJreclp5IFzRbUCDaXQQFTOj7QBC5La7DGiw91nHnq5tc6+richX8JNqP9C9XgHcJW/4vyFKJT+p9gXLkFBPV1/zgaiDKkQGNEyFjpZ6LOs0BcTPUEAoPUhcf1VNHhaA8AWG+chNCLnVR07c3HbWAfwCDNlpw2v1CaBL1oMFhFL5JSa36mj6IDWA4ifVEEXJmxpvwyukLXHin6QDzPgoQU6Ca7MW0VwGKDEpw+5/qmaCczQGnwfl9Kq8Em3Z/wMqMWm+CnNddPtvC7+DoDtAiUkVDPEbe/a7RUsDzIOqxjQUKWnfhZ2n9eHnQdXDyVlGbqJ9D0EGUjywJY7btIm5TMNvGlZcrNZGTzEe0sBC3Y3bZN2sAGiLxM12RBa6bo6ZmyxkjK2HcAV1TD8/ODPU9zfbcaaL2DAWU2duy5sABpnxQS7ve5coG1o24DwoRQO9IVyRkyX+ub07JYkiSAML8TvKbm82/ChITLNjQ9/2SYKN9l5gww8wROWR7U69Jglriy/6FFDzIYVmbX3bM6NjXtM20u/8jsAPGsEVH8TDqsxXBK7wg9QPefareG74PtwAjfF10swy578w6W2aROUDY8a/MZCEEDkGmnLbR9do1VosJ85vj2m+nG8hpNCMnJYtue3Lp2Nd+Sx1y5waiTtbViWK+FscUjxAyxE5gkWwOrl+uP5B6LvRbbXc1OfAtvwqIUjxAD3JESvwK0oxXEFOctVJNUhcQVaAxGb8KGWAvm157xr6D4GuZjxXQIr1+J1qAzTGQ2IzflLNxL9kBXEPt3ynFt/sCBkuIFCAASk0I1sIcg8FuAIS/JIthLiHBV9ghJxzdAshVlDNFWQLQfhWgCsg86BIaKp4CusAXIFwCi+KuYLU8EAEBIHCbsiMDxL8Kp7CCpkzG5DQVPFkPUi+goSmkCmsAoXdkBkfRChVPIUVwhVUKIUEv3yugPjEVMZEcEXAD+/xzY6QmVqquYLImJDgVyDnhHBoloQrEGLzlZ+ag/jENKmGWOGdLwVDuIKcc4qnsGKK9UjNDF5AaISN+BnScw7hFF7405IgXEEqSiFOoWquaM/89gVfg7IQjfE0+IUkJhXHFUQ/MRErCGhQEK7AC6WKNagzXCgV4ApIbptWlBaAFc6KNShyzimerIfR2glX4IeENoOjnxQfxVXE8aHBLyLze+XXQTVsocsxS9eeES8Oztw5HA6x4eX+rfZdfCXk5RUgwa9Aw2h1aHqZ+cah5jaZUyNt8dVJQgg/JLQZz+7GMt07rU4teaHpI2iVEEQo5Qe/D43xwS05cKeVmF5dsz4JfjVEt59AHVQ5NN2msWAFvRNW+rT4KiEBrvhXB3X22Q+vDMt7buShIh9EKBXoOPw+yc/ugv/YH/E0eY4GbohXkFz4XPHl9Qdp1zLkX8T0uKKvTAcYKFIz601ufTul7ihPZbsSroAk1XL+lZnShmN5/6SYAYLfXvX9nfH22+pKyRhh4FHGMMAumJ+eb7BqoVQ2jM0jGeOrcgeG5V/xryBROVnvEzbtiAUYKHuyXj8oFkoHAIQrek7WkwpIpZVA8IuH4lHBA0DxWPkBUAAMFBgVPABywO9QoUNTBUf+YarSoamE7DKTLuMfwTDlJmAFOtWGQywzi/9ym/QOS1rmYiU49Go4aDKY8ZoOP4NBAP0men1itn+9M+YB8x55vFUiMpxUHcxuLRfH/JWiiTYYgh16l0zaSxoGg71nG7kKFy//26uGaaSt+k0WiqaJXg2aEa6qx9AG2brbu3teEebCeICUgWUjRowYMWLEiBEjRowYGH8B56bH94Lr5qYAAAAASUVORK5CYII=" alt="hgkfghgfkh">
+                            </span>                
+                              <strong class="strong ">-25%</strong>
+                          
+                          <span class="product">41.29$</span>
+            
+                          <a href="#" class="btn btn-success bt-lg p-1">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart-plus" viewBox="0 0 16 16">
+                                <path d="M9 5.5a.5.5 0 0 0-1 0V7H6.5a.5.5 0 0 0 0 1H8v1.5a.5.5 0 0 0 1 0V8h1.5a.5.5 0 0 0 0-1H9V5.5z"/>
+                                <path d="M.5 1a.5.5 0 0 0 0 1h1.11l.401 1.607 1.498 7.985A.5.5 0 0 0 4 12h1a2 2 0 1 0 0 4 2 2 0 0 0 0-4h7a2 2 0 1 0 0 4 2 2 0 0 0 0-4h1a.5.5 0 0 0 .491-.408l1.5-8A.5.5 0 0 0 14.5 3H2.89l-.405-1.621A.5.5 0 0 0 2 1H.5zm3.915 10L3.102 4h10.796l-1.313 7h-8.17zM6 14a1 1 0 1 1-2 0 1 1 0 0 1 2 0zm7 0a1 1 0 1 1-2 0 1 1 0 0 1 2 0z"/>
+                              </svg>                </a>
+                        </div>
+                </div>
+          </aside>
+                
+            </div>
+            </div>
       </div>
       <div class="carousel-item">
         <img src="..." class="d-block w-100" alt="...">
@@ -361,7 +422,17 @@
     </span>
     <hr>
     <main>
-
+        <div>
+            <div> 
+                <div>
+                    
+                    <img src="https://images-4.gog-statics.com/3b916bc51c79ec1f93d0531dfbe25d4e1d751a1462f23a4736bbb586554b4316_product_tile_136.webp" alt="">
+                
+                </div>
+            
+            </div>
+       <hr>
+        </div>
     </main>
     </div>
     
@@ -373,6 +444,7 @@
                 
             </span>
             <hr>
+            
         </span>
         
         <aside class="row">
@@ -392,7 +464,7 @@
                 <img  class="p-1"src="https://images-1.gog-statics.com/81e5fa9e70c3ffa21e625454584c317d8f323a8486fcfb24642cefc976f6f267_curated_collection_vertical_tile.webp" alt="">
                 <img class="p-1 mt-1"  src="https://images-1.gog-statics.com/ef4b9c3315dae3e0d973e974ef3ab23a61254fffe9c639a98f988bcdc61704a0_curated_collection_small_tile.webp" alt="">
             </div>
-
+                
             </div>
 
 

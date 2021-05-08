@@ -8,6 +8,9 @@ body{
     border-top:#9f54a9 solid 3px;
     background-color: rgba(4, 4, 4, 0.817)
 }
+.sign-in{
+    color: #9f54a9;
+}
 .highlights{
     margin-top: 80px;
 }
@@ -35,6 +38,9 @@ body{
 
 .card{
     font-size: smaller;
+    border: none;
+    margin: px;
+    
 }
 .strong{
     /* padding-left: 100px; */
